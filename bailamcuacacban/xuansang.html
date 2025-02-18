@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:FreeMono;">
+
+<div style="background-color:#1f9cd1;padding:15px;">
+  <h1>mèo</h1>
+ <h2>&#128517;</h2> 
+ <h2>&#128008;</h2>
+</div>
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">mèo là gì</div>
+    <div class="menuitem">wiki</div>
+    <div class="menuitem">ảnh</div>
+  </div> 
+  <div class="main">
+    <h2>Mèo là động vật sống chung với loài người từ rất lâu</h2>
+   <p><a href="https://en.wikipedia.org/wiki/Cat/">nếu bạn muốn biết thêm về mèo</a></p>
+    <img src="https://media.4-paws.org/c/1/7/8/c178dd618346079f9b96edeacc30563b8de72fb4/Molly_006-2829x1886-2726x1886-1920x1328.webp" style="width:100%">
+  </div>
+  <div class="right">
+    <h2>Nhóm làm</h2>
+    <p>tổ 4</p>
+  </div>
+</div>
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> nếu bạn muốn biết chi tiết xin trở lại trang chủ</div>
+
+</body>
+</html>
